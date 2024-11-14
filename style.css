@@ -1,0 +1,77 @@
+body {
+    background-color:rgb(39, 38, 38)
+}
+
+.bg-grid {
+    background-size: 40px 40px;
+    background-color: white;
+    background-image:
+      linear-gradient(to right, rgb(225, 225, 225) 2px, transparent 1px),
+      linear-gradient(to bottom, rgb(225, 225, 225) 2px, transparent 1px);
+  }
+
+.logo-cell img {
+    width: 320px;
+    height: auto;
+    margin: auto;
+    display: block;
+}
+
+.wide-cell img {
+    width: 480px;
+    height: auto;
+    margin: auto;
+    display: block;
+}
+
+.row {
+    display: flex; /* Enable Flexbox for centering */
+    justify-content: center; /* Center the columns horizontally */
+}
+
+.pack-row {
+    margin-bottom: 8px;
+}
+
+.col {
+    flex: 0 1 auto; /* Allow columns to resize naturally */
+    width: fit-content;
+    padding: 5px;
+}
+
+.small-cell {
+    display: flex;
+    justify-content: center;
+    max-width: 240px; /* Set max-width to control image size */
+    width:fit-content;
+}
+
+.small-cell img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+.section-heading h2 {
+    margin: auto;
+    display: block;
+    width: fit-content;
+}
+
+.section-heading h4 {
+    margin: auto;
+    display: block;
+    width: fit-content;
+}
+
+.main-wrapper {
+    padding-top: 3%;
+}
+
+.server-map {
+    width: 600px;
+    height: 480px;
+    margin: auto;
+    display: block;
+}
