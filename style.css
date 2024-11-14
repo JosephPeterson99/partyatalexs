@@ -1,14 +1,14 @@
 body {
-    background-color:rgb(39, 38, 38)
+    background-color: rgb(39, 38, 38);
 }
 
 .bg-grid {
     background-size: 40px 40px;
     background-color: white;
     background-image:
-      linear-gradient(to right, rgb(225, 225, 225) 2px, transparent 1px),
-      linear-gradient(to bottom, rgb(225, 225, 225) 2px, transparent 1px);
-  }
+        linear-gradient(to right, rgb(225, 225, 225) 2px, transparent 1px),
+        linear-gradient(to bottom, rgb(225, 225, 225) 2px, transparent 1px);
+}
 
 .logo-cell img {
     width: 320px;
@@ -24,7 +24,13 @@ body {
     display: block;
 }
 
-.row {
+.bg-grid.container {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Custom row for specific alignment, avoiding Bootstrap’s .row */
+.custom-row {
     display: flex; /* Enable Flexbox for centering */
     justify-content: center; /* Center the columns horizontally */
 }
@@ -33,17 +39,33 @@ body {
     margin-bottom: 8px;
 }
 
-.col {
+.custom-col {
     flex: 0 1 auto; /* Allow columns to resize naturally */
     width: fit-content;
     padding: 5px;
 }
 
+.datapack-cell img {
+    width: 480px;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+    display: block;
+}
+
+.wide-cell,
+.datapack-cell {
+    display: flex;
+    justify-content: center;
+    padding: 10px; /* Adds some space around each cell */
+    width: 100%;
+}
+
 .small-cell {
     display: flex;
     justify-content: center;
-    max-width: 240px; /* Set max-width to control image size */
-    width:fit-content;
+    max-width: 240px;
+    width: fit-content;
 }
 
 .small-cell img {
@@ -52,13 +74,7 @@ body {
     display: block;
 }
 
-
-.section-heading h2 {
-    margin: auto;
-    display: block;
-    width: fit-content;
-}
-
+.section-heading h2,
 .section-heading h4 {
     margin: auto;
     display: block;
@@ -70,8 +86,55 @@ body {
 }
 
 .server-map {
-    width: 600px;
-    height: 480px;
+    width: 100%;
+    max-width: 90vw;
+    height: 60vh;
     margin: auto;
     display: block;
+}
+
+/* Navbar styling */
+.navbar {
+    background-color: rgb(27, 27, 29);
+    padding: 10px 0;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.logo-button {
+    margin-right: 15px;
+}
+
+.navbar-logo {
+    width: 50px;
+    height: auto;
+}
+
+.nav-link {
+    color: white;
+    margin: 0 10px;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    color: #d3d3d3;
+}
+
+/* Ensure navbar sticks to the top */
+.sticky-top {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+/* Additional styling for the navbar header */
+.nav-header {
+    background-color: rgb(27, 27, 29);
 }
