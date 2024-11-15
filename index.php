@@ -207,7 +207,20 @@
                     <div class="col-12 col-lg-6 datapack-cell"><img src="./img/data/unlock-all-recipes.png" /></div>
                     <div class="col-12 col-lg-6 datapack-cell"><img src="./img/data/wandering-trader-announcements.png" /></div>
                     <div class="col-12 col-lg-6 datapack-cell"><img src="./img/data/wandering-trades.png" /></div>
+                </div>
+            </div>
+            <br><br>
 
+            <div class="section-heading">
+                <h2>New Crafting Recipes</h2>
+                <div class="container">
+                    <div class="row" id="datapack-row">
+                        <div class="col-12 col-lg-6 datapack-cell"><img src="./img/craft/rotten flesh to leather.png" /></div>
+                        <div class="col-12 col-lg-6 datapack-cell"><img src="./img/craft/craftable gravel.png" /></div>
+                        <div class="col-12 col-lg-6 datapack-cell"><img src="./img/craft/craftable horse armor.png" /></div>
+                        <div class="col-12 col-lg-6 datapack-cell"><img src="./img/craft/craftable name tags.png" /></div>
+                        <div class="col-12 col-lg-6 datapack-cell"><img src="./img/craft/unpackable wool.png" /></div>
+                    </div>
                 </div>
             </div>
         </div>
