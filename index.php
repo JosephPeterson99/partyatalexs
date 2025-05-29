@@ -1,230 +1,190 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Party at Alex's</title>
-    <link rel="icon" type="image/x-icon" href="./favicon.png">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    <style>
-        body {
-            background-color: rgb(39, 38, 38);
-        }
-
-        .bg-grid {
-            background-size: 40px 40px;
-            background-color: white;
-            background-image:
-                linear-gradient(to right, rgb(225, 225, 225) 2px, transparent 1px),
-                linear-gradient(to bottom, rgb(225, 225, 225) 2px, transparent 1px);
-        }
-
-        .logo-cell img {
-            width: 320px;
-            height: auto;
-            margin: auto;
-            display: block;
-        }
-
-        .wide-cell img {
-            width: 480px;
-            height: auto;
-            margin: auto;
-            display: block;
-        }
-
-        .bg-grid.container {
-            padding-left: 15px;
-            padding-right: 15px;
-        }
-
-        /* Custom row for specific alignment, avoiding Bootstrap’s .row */
-        .custom-row {
-            display: flex; /* Enable Flexbox for centering */
-            justify-content: center; /* Center the columns horizontally */
-        }
-
-        .pack-row {
-            margin-bottom: 8px;
-        }
-
-        .custom-col {
-            flex: 0 1 auto; /* Allow columns to resize naturally */
-            width: fit-content;
-            padding: 5px;
-        }
-
-        .datapack-cell img {
-            width: 480px;
-            height: auto;
-            margin: 0px;
-            padding: 0px;
-            display: block;
-        }
-
-        .wide-cell {
-            display: flex;
-            justify-content: center;
-            padding: 10px; /* Adds some space around each cell */
-            width: 100%;
-        }
-
-        .datapack-cell {
-            display: flex;
-            justify-content: center;
-            padding: 5px 2px; /* Adds some space around each cell */
-        }
-
-        .small-cell {
-            display: flex;
-            justify-content: center;
-            max-width: 240px;
-            width: fit-content;
-        }
-
-        .small-cell img {
-            width: 100%;
-            height: auto;
-            display: block;
-        }
-
-        .section-heading h2,
-        .section-heading h4 {
-            margin: auto;
-            display: block;
-            width: fit-content;
-        }
-
-        .main-wrapper {
-            padding-top: 3%;
-        }
-
-        .server-map {
-            width: 100%;
-            max-width: 90vw;
-            height: 60vh;
-            margin: auto;
-            display: block;
-        }
-
-        /* Navbar styling */
-        .navbar {
-            background-color: rgb(27, 27, 29);
-            padding: 10px 0;
-            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-        }
-
-        .logo-button {
-            margin-right: 15px;
-        }
-
-        .navbar-logo {
-            width: 50px;
-            height: auto;
-        }
-
-        .nav-link {
-            color: white;
-            margin: 0 10px;
-            font-size: 18px;
-            text-decoration: none;
-        }
-
-        .nav-link:hover {
-            color: #d3d3d3;
-        }
-
-        /* Ensure navbar sticks to the top */
-        .sticky-top {
-            position: sticky;
-            top: 0;
-            z-index: 1000;
-        }
-
-        .nav-container {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            gap: 20px;
-        }
-
-        /* Additional styling for the navbar header */
-        .nav-header {
-            background-color: rgb(27, 27, 29);
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <nav class="navbar sticky-top">
-            <div class="container d-flex justify-content-center align-items-center">
-                <a class="navbar-brand logo-button"><img src="./img/logo.png" alt="Logo" class="navbar-logo"></a>
-                <a href="#live-map" class="nav-link">Live Map</a>
-                <a href="#resource-pack" class="nav-link">Resource Pack</a>
-                <a href="#data-packs" class="nav-link">Data Packs</a>
-                <a href="#contact" class="nav-link">Contact</a>
+    <div class="container">
+        <div id="header-section">
+            <?php 
+                include('logo.php');
+                render_logo(); // No parameter - will use random text from JSON
+            ?>
+        </div>
+          <!-- Navbar section -->
+        <div class="navbar-wrapper">
+            <nav class="navbar">
+                <a href="#header-section" class="btn-play"><img src="img/btn/btn-play.png" alt="Play Now"></a>
+                <a href="#event-details" class="btn-rules"><img src="img/btn/btn-rules.png" alt="Rules"></a>
+                <a href="#map" class="btn-map"><img src="img/btn/btn-map.png" alt="Live Map"></a>
+                <a href="#event-details" class="btn-mods"><img src="img/btn/btn-mods.png" alt="Mods & Datapacks"></a>
+            </nav>
+        </div>
+        
+        <main>
+            <!-- Empty red rectangular sections -->
+            <div class="section-container" id="event-details">
+                <section class="event-details">
+                    <h2>Event Details</h2>
+                    <p><strong>Date:</strong> June 15, 2025</p>
+                    <p><strong>Time:</strong> 8:00 PM - 2:00 AM</p>
+                    <p><strong>Location:</strong> Alex's Place</p>
+                    <p><strong>Days until party:</strong> 27 days</p>
+                </section>
             </div>
-    </nav>
-    <div class="bg-grid">
-        <div class="main-wrapper container">
-            <div class="section-heading">
-                <h2>Live Map</h2>
+            
+            <div class="section-container" id="about">
+                <section class="about">
+                    <h2>About the Party</h2>
+                    <p>Get ready for the most exciting party of the year! We've got amazing music, delicious food, and the coolest people in town.</p>
+                    <p>Don't miss out on this incredible night!</p>
+                </section>
             </div>
-            <div class="wide-cell">
-                <iframe class="server-map" src="http://map.partyatalexs.xyz//"></iframe>
+            
+            <div class="section-container" id="rsvp">
+                <section class="rsvp">
+                    <h2>RSVP</h2>
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="guests">Number of Guests:</label>
+                            <select id="guests" name="guests">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                            </select>
+                        </div>
+                        <button type="submit">Submit RSVP</button>
+                    </form>
+                </section>
             </div>
-            <br><br>
-                
-            <div class="section-heading">
-                <h2>Recommended Resource Pack</h2>
-            </div>
-            <div class="wide-cell"><img src="./img/pack.png" /></div>
-            <br><br>
-
-            <div class="section-heading">
-                <h2>Server Data Packs</h2>
-            </div>
-            <div class="container">
-                <div class="row" id="datapack-row">
-                    <div class="col-12 col-lg-6 datapack-cell"><img src="./img/data/armored-elytra.png" /></div>
-                    <div class="col-12 col-lg-6 datapack-cell"><img src="./img/data/cauldron-concrete.png" /></div>
-                    <div class="col-12 col-lg-6 datapack-cell"><img src="./img/data/cauldron-mud.png" /></div>
-                    <div class="col-12 col-lg-6 datapack-cell"><img src="./img/data/classic-fishing-loot.png" /></div>
-                    <div class="col-12 col-lg-6 datapack-cell"><img src="./img/data/custom-nether-portals.png" /></div>
-                    <div class="col-12 col-lg-6 datapack-cell"><img src="./img/data/double-shulker-shells.png" /></div>
-                    <div class="col-12 col-lg-6 datapack-cell"><img src="./img/data/fast-leaf-decay.png" /></div>
-                    <div class="col-12 col-lg-6 datapack-cell"><img src="./img/data/graves.png" /></div>
-                    <div class="col-12 col-lg-6 datapack-cell"><img src="./img/data/husks-drop-sand.png" /></div>
-                    <div class="col-12 col-lg-6 datapack-cell"><img src="./img/data/mini-blocks.png" /></div>
-                    <div class="col-12 col-lg-6 datapack-cell"><img src="./img/data/more-mob-heads.png" /></div>
-                    <div class="col-12 col-lg-6 datapack-cell"><img src="./img/data/name-colors.png" /></div>
-                    <div class="col-12 col-lg-6 datapack-cell"><img src="./img/data/player-head-drops.png" /></div>
-                    <div class="col-12 col-lg-6 datapack-cell"><img src="./img/data/silence-mobs.png" /></div>
-                    <div class="col-12 col-lg-6 datapack-cell"><img src="./img/data/timber.png" /></div>
-                    <div class="col-12 col-lg-6 datapack-cell"><img src="./img/data/unlock-all-recipes.png" /></div>
-                    <div class="col-12 col-lg-6 datapack-cell"><img src="./img/data/wandering-trader-announcements.png" /></div>
-                    <div class="col-12 col-lg-6 datapack-cell"><img src="./img/data/wandering-trades.png" /></div>
-                </div>
-            </div>
-            <br><br>
-
-            <div class="section-heading">
-                <h2>New Crafting Recipes</h2>
-                <div class="container">
-                    <div class="row" id="datapack-row">
-                        <div class="col-12 col-lg-6 datapack-cell"><img src="./img/craft/rotten flesh to leather.png" /></div>
-                        <div class="col-12 col-lg-6 datapack-cell"><img src="./img/craft/craftable gravel.png" /></div>
-                        <div class="col-12 col-lg-6 datapack-cell"><img src="./img/craft/craftable horse armor.png" /></div>
-                        <div class="col-12 col-lg-6 datapack-cell"><img src="./img/craft/craftable name tags.png" /></div>
-                        <div class="col-12 col-lg-6 datapack-cell"><img src="./img/craft/unpackable wool.png" /></div>
+            
+            <div class="section-container" id="gallery">
+                <section class="gallery">
+                    <h2>Party Gallery</h2>
+                    <p>Check out some photos from our previous events!</p>
+                    <div class="gallery-grid">
+                        <div class="gallery-item">
+                            <div class="placeholder-image">Image 1</div>
+                            <p>Last year's summer bash</p>
+                        </div>
+                        <div class="gallery-item">
+                            <div class="placeholder-image">Image 2</div>
+                            <p>New Year's Eve Celebration</p>
+                        </div>
+                        <div class="gallery-item">
+                            <div class="placeholder-image">Image 3</div>
+                            <p>Halloween Party 2024</p>
+                        </div>
+                        <div class="gallery-item">
+                            <div class="placeholder-image">Image 4</div>
+                            <p>Spring Fling</p>
+                        </div>
                     </div>
-                </div>
+                </section>
             </div>
+            
+            <div class="section-container">
+                <section class="testimonials">
+                    <h2>What People Say</h2>
+                    <div class="testimonial">
+                        <p>"Alex's parties are always the highlight of my year! Can't wait for the next one!"</p>
+                        <cite>- Jamie S.</cite>
+                    </div>
+                    <div class="testimonial">
+                        <p>"The music was amazing, the food was delicious, and the company was even better!"</p>
+                        <cite>- Taylor M.</cite>
+                    </div>
+                    <div class="testimonial">
+                        <p>"I've never had so much fun in one night. Already looking forward to the next party!"</p>
+                        <cite>- Jordan R.</cite>
+                    </div>
+                </section>
+            </div>
+            
+            <div class="section-container">
+                <section class="faq">
+                    <h2>Frequently Asked Questions</h2>
+                    <div class="faq-item">
+                        <h3>What should I wear?</h3>
+                        <p>Dress to impress! Smart casual is our recommended attire.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>Can I bring additional guests?</h3>
+                        <p>Please RSVP with the total number of guests. If you need to bring more than 4, contact us directly.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>Is there parking available?</h3>
+                        <p>Yes, limited parking is available on-site. Carpooling is encouraged!</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>What time does the party end?</h3>
+                        <p>The official end time is 2:00 AM, but the fun often continues!</p>
+                    </div>
+                </section>
+            </div>
+        </main>
+        
+        <div class="section-container">
+            <footer>
+                <p>&copy; <?php echo date('Y'); ?> Party at Alex's. All rights reserved.</p>
+                <p>Contact: party@alexs.com | (555) 123-4567</p>
+            </footer>
         </div>
     </div>
-</body>
 
+    <script>
+        // JavaScript to handle the sticky navbar behavior
+        window.addEventListener('scroll', function() {
+            const navbar = document.querySelector('.navbar');
+            const navbarWrapper = document.querySelector('.navbar-wrapper');
+            const headerSection = document.getElementById('header-section');
+            
+            // Get the position where the navbar should become sticky
+            const stickyPosition = headerSection.offsetTop + headerSection.offsetHeight;
+            
+            // Check if we've scrolled past the header
+            if (window.pageYOffset >= stickyPosition) {
+                navbar.classList.add('sticky');
+                navbarWrapper.classList.add('has-sticky');
+            } else {
+                navbar.classList.remove('sticky');
+                navbarWrapper.classList.remove('has-sticky');
+            }
+        });
+
+        // Ensure <a> tags expand to the size of their images dynamically
+        document.addEventListener('DOMContentLoaded', function() {
+            const navbarLinks = document.querySelectorAll('.navbar a');
+
+            navbarLinks.forEach(link => {
+                const img = link.querySelector('img');
+                if (img) {
+                    const adjustLinkSize = () => {
+                        link.style.width = img.offsetWidth + 'px';
+                        link.style.height = img.offsetHeight + 'px';
+                    };
+
+                    // Adjust size immediately if the image is already loaded
+                    if (img.complete) {
+                        adjustLinkSize();
+                    } else {
+                        img.onload = adjustLinkSize;
+                    }
+                }
+            });
+        });
+    </script>
+</body>
 </html>

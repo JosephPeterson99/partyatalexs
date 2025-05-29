@@ -1,140 +1,443 @@
+/* Reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
-    background-color: rgb(39, 38, 38);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url('img/dirt.png');
+    background-repeat: repeat;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
 }
 
-.bg-grid {
-    background-size: 40px 40px;
-    background-color: white;
-    background-image:
-        linear-gradient(to right, rgb(225, 225, 225) 2px, transparent 1px),
-        linear-gradient(to bottom, rgb(225, 225, 225) 2px, transparent 1px);
-}
-
-.logo-cell img {
-    width: 320px;
-    height: auto;
-    margin: auto;
-    display: block;
-}
-
-.wide-cell img {
-    width: 480px;
-    height: auto;
-    margin: auto;
-    display: block;
-}
-
-.bg-grid.container {
-    padding-left: 15px;
-    padding-right: 15px;
-}
-
-/* Custom row for specific alignment, avoiding Bootstrap’s .row */
-.custom-row {
-    display: flex; /* Enable Flexbox for centering */
-    justify-content: center; /* Center the columns horizontally */
-}
-
-.pack-row {
-    margin-bottom: 8px;
-}
-
-.custom-col {
-    flex: 0 1 auto; /* Allow columns to resize naturally */
-    width: fit-content;
-    padding: 5px;
-}
-
-.datapack-cell img {
-    width: 480px;
-    height: auto;
-    margin: 0px;
-    padding: 0px;
-    display: block;
-}
-
-.wide-cell,
-.datapack-cell {
-    display: flex;
-    justify-content: center;
-    padding: 10px; /* Adds some space around each cell */
+/* Container for the main content */
+.container {
+    background-image: url('img/stone.png');
+    background-repeat: repeat;
+    margin: 0 auto;
+    min-height: 100vh;
     width: 100%;
+    max-width: 100%;
+    padding: 0;
+    position: relative;
 }
 
-.small-cell {
-    display: flex;
-    justify-content: center;
-    max-width: 240px;
-    width: fit-content;
-}
-
-.small-cell img {
-    width: 100%;
-    height: auto;
-    display: block;
-}
-
-.section-heading h2,
-.section-heading h4 {
-    margin: auto;
-    display: block;
-    width: fit-content;
-}
-
-.main-wrapper {
-    padding-top: 3%;
-}
-
-.server-map {
-    width: 100%;
-    max-width: 90vw;
-    height: 60vh;
-    margin: auto;
-    display: block;
-}
-
-/* Navbar styling */
-.navbar {
-    background-color: rgb(27, 27, 29);
-    padding: 10px 0;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.logo-button {
-    margin-right: 15px;
-}
-
-.navbar-logo {
-    width: 50px;
-    height: auto;
-}
-
-.nav-link {
-    color: white;
-    margin: 0 10px;
-    font-size: 18px;
-    text-decoration: none;
-}
-
-.nav-link:hover {
-    color: #d3d3d3;
-}
-
-/* Ensure navbar sticks to the top */
-.sticky-top {
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-}
-
-.nav-container {
+/* Section container styles - wide rectangular sections */
+.section-container {
+    width: 95%;
+    margin: 0 auto 20px;
+    min-height: 100px;
+    padding: 0;
+    background-color: #c42021; /* Bright red color */
+    border-radius: 0; /* Completely rectangular */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    color: white; /* White text for better contrast on red */
+    border: none;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
 }
 
-/* Additional styling for the navbar header */
-.nav-header {
-    background-color: rgb(27, 27, 29);
+/* Special styling for header section with logo */
+#header-section {
+    background-image: url('img/logo-bg.png');
+    background-repeat: repeat;
+    background-color: transparent;
+    box-shadow: none;
+    padding: 0;
+    border-radius: 0;
+    margin: 0;
+    width: 100%;
+    max-width: 100%;
+}
+
+/* Mobile-first design (optimized for 9:16 ratio) */
+header {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+.tagline {
+    font-style: italic;
+    color: #666;
+}
+
+/* Navbar styles */
+.navbar-wrapper {
+    width: 100%;
+    background-color: transparent;
+    position: relative;
+    z-index: 100;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.navbar {
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 0;
+    margin-bottom: 20px;
+    padding: 5px 1px;
+    text-align: center;
+    display: block;
+    justify-content: space-between; /* Distribute buttons equally */
+    align-items: center; /* Align items vertically */
+    gap: 3px; /* Reduced spacing between buttons */
+    position: relative; /* Reset position to default */
+    top: auto; /* Remove fixed positioning */
+    left: auto; /* Remove fixed positioning */
+    box-shadow: none; /* Remove shadow */
+}
+
+.navbar-table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    border-spacing: 0;
+    text-align: center;
+    width: auto; /* Let the table size to its content */
+}
+
+.navbar-table td {
+    padding: 0 3px; /* Slightly increased spacing between buttons */
+    vertical-align: middle;
+    white-space: nowrap;
+    line-height: 0; /* Remove any extra vertical spacing */
+}
+
+/* Default dimensions for navigation buttons */
+.navbar a {
+    display: inline-block;
+    width: 150px; /* Default width matching the image dimensions */
+    height: 50px; /* Default height matching the image dimensions */
+    text-align: center;
+    vertical-align: middle;
+}
+
+/* Remove default dimensions for <a> tags to allow JavaScript to dynamically adjust their sizes */
+.navbar a {
+    min-width: unset;
+    min-height: unset;
+}
+
+/* Ensure images inside <a> tags are fully visible */
+.navbar a img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Ensure <a> tags expand to the size of the image */
+.navbar a {
+    display: inline-block;
+    text-decoration: none;
+    transition: all 0.2s;
+    vertical-align: middle;
+    width: fit-content; /* Ensure <a> tags fit the content */
+    height: fit-content; /* Ensure <a> tags fit the content */
+}
+
+.navbar a img {
+    height: 45px; /* Fixed height for images */
+    width: auto; /* Auto width to maintain aspect ratio */
+    display: block; /* Ensure images are block-level */
+    margin: 0 auto; /* Center images within their container */
+}
+
+.navbar-wrapper.has-sticky {
+    margin-bottom: 0; /* Reset margin adjustments */
+}
+
+section {
+    width: 100%;
+}
+
+h2 {
+    margin-bottom: 1rem;
+    color: #ffffff;
+    border-bottom: 2px solid #ffffff;
+    padding-bottom: 0.5rem;
+}
+
+h3 {
+    margin-bottom: 0.5rem;
+    color: #ffffff;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+input, select {
+    width: 100%;
+    padding: 0.8rem;
+    border: 2px solid #ffffff;
+    border-radius: 0; /* Rectangular shape */
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    background-color: #e32d2f; /* Slightly lighter red */
+    color: #ffffff;
+}
+
+input::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+button {
+    background-color: #ffffff;
+    color: #c42021; /* Red color */
+    border: none;
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 0; /* Rectangular shape */
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #f0f0f0;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    color: #666;
+    font-size: 0.9rem;
+}
+
+/* Gallery styles */
+.gallery-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.gallery-item {
+    text-align: center;
+}
+
+.placeholder-image {
+    background-color: #e32d2f; /* Slightly lighter red */
+    border: 2px solid #ffffff;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    border-radius: 0; /* Rectangular shape */
+    color: #ffffff;
+    font-weight: bold;
+}
+
+/* Testimonial styles */
+.testimonial {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #e32d2f; /* Slightly lighter red */
+    border-left: 4px solid #ffffff;
+    border-radius: 0; /* Rectangular shape */
+}
+
+.testimonial p {
+    font-style: italic;
+    margin-bottom: 5px;
+    color: #ffffff;
+}
+
+.testimonial cite {
+    font-weight: bold;
+    color: #ffffff;
+}
+
+/* FAQ styles */
+.faq-item {
+    margin-bottom: 20px;
+}
+
+/* Responsive design for different screen sizes */
+/* For tablets and small desktops */
+@media (min-width: 768px) {
+    .container {
+        width: 100%;
+        max-width: 960px;
+        padding: 0;
+    }
+    
+    .section-container {
+        width: 95%;
+        margin-bottom: 30px;
+        min-height: 120px;
+    }
+    
+    .navbar {
+        width: 100%;
+    }
+    
+    .navbar a {
+        height: 40px; /* Consistent height for medium screens */
+    }
+    
+    /* Maintain exact aspect ratios for 40px height */
+    .navbar a.btn-play {
+        width: 93px; /* 40px height × 2.33 aspect ratio */
+    }
+    
+    .navbar a.btn-mods {
+        width: 187px; /* 40px height × 4.67 aspect ratio */
+    }
+    
+    .navbar a.btn-rules {
+        width: 73px; /* 40px height × 1.83 aspect ratio */
+    }
+    
+    .navbar a.btn-map {
+        width: 93px; /* 40px height × 2.33 aspect ratio */
+    }
+    
+    button {
+        width: auto;
+    }
+    
+    .gallery-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* For larger desktop screens (4:3 and wider) */
+@media (min-width: 1024px) and (min-aspect-ratio: 4/3) {
+    .container {
+        width: 75%;
+        max-width: 1200px;
+        padding: 0;
+    }
+    
+    .section-container {
+        width: 95%;
+        margin-bottom: 40px;
+        min-height: 150px;
+    }
+    
+    .navbar {
+        width: 100%;
+    }
+    
+    .navbar a {
+        height: 40px; /* Consistent height for desktop screens */
+    }
+    
+    /* Maintain exact aspect ratios for 40px height */
+    .navbar a.btn-play {
+        width: 93px; /* 40px height × 2.33 aspect ratio */
+    }
+    
+    .navbar a.btn-mods {
+        width: 187px; /* 40px height × 4.67 aspect ratio */
+    }
+    
+    .navbar a.btn-rules {
+        width: 73px; /* 40px height × 1.83 aspect ratio */
+    }
+    
+    .navbar a.btn-map {
+        width: 93px; /* 40px height × 2.33 aspect ratio */
+    }
+    
+    .gallery-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+/* For very wide screens */
+@media (min-width: 1400px) or (min-aspect-ratio: 16/9) {
+    .container {
+        width: 60%;
+    }
+    
+    .section-container {
+        width: 95%;
+        min-height: 180px;
+    }
+    
+    .navbar {
+        width: 100%;
+    }
+    
+    .navbar a {
+        height: 40px; /* Consistent height for wide screens */
+    }
+    
+    /* Maintain exact aspect ratios for 40px height */
+    .navbar a.btn-play {
+        width: 93px; /* 40px height × 2.33 aspect ratio */
+    }
+    
+    .navbar a.btn-mods {
+        width: 187px; /* 40px height × 4.67 aspect ratio */
+    }
+    
+    .navbar a.btn-rules {
+        width: 73px; /* 40px height × 1.83 aspect ratio */
+    }
+    
+    .navbar a.btn-map {
+        width: 93px; /* 40px height × 2.33 aspect ratio */
+    }
+}
+
+/* For very small screens like mobile phones in portrait mode */
+@media (max-width: 480px) {
+    .navbar {
+        padding: 5px 0;
+    }
+    
+    .navbar a {
+        height: 40px; /* Consistent height for mobile screens */
+    }
+    
+    /* Maintain exact aspect ratios for 40px height */
+    .navbar a.btn-play {
+        width: 93px; /* 40px height × 2.33 aspect ratio */
+    }
+    
+    .navbar a.btn-mods {
+        width: 187px; /* 40px height × 4.67 aspect ratio */
+    }
+    
+    .navbar a.btn-rules {
+        width: 73px; /* 40px height × 1.83 aspect ratio */
+    }
+    
+    .navbar a.btn-map {
+        width: 93px; /* 40px height × 2.33 aspect ratio */
+    }
+    
+    .navbar-table {
+        width: 100%;
+    }
+    
+    .navbar-table td {
+        padding: 0 1px; /* Minimal horizontal padding */
+    }
 }
