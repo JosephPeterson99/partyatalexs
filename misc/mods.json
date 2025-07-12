@@ -1,0 +1,1106 @@
+[
+    {
+        "title": "Accessories",
+        "image": "accessories.webp",
+        "link": "https://modrinth.com/mod/accessories",
+        "info": "Adds accessory slots in addition to the armor slots"
+    },
+    {
+        "title": "Advancement Plaques",
+        "image": "advancement-plaques.webp",
+        "link": "https://modrinth.com/mod/advancement-plaques",
+        "info": "Replace those boring advancement popups with something flashier"
+    },
+    {
+        "title": "The Aether",
+        "image": "aether.webp",
+        "link": "https://modrinth.com/mod/aether",
+        "info": "A hostile paradise in the sky filled with new mobs, blocks, dungeons, and items"
+    },
+    {
+        "title": "The Aether: Enhanced Extinguishing",
+        "image": "aether-extinguish.webp",
+        "link": "https://modrinth.com/mod/aether-enhanced-extinguishing",
+        "info": "Instead of disallowing fire in the Aether, just extinguish it"
+    },
+    {
+        "title": "The Aether: Protect Your Moa",
+        "image": "aether-moa.webp",
+        "link": "https://modrinth.com/mod/aether-protect-your-moa",
+        "info": "Equip tamed Moas with armor and storage"
+    },
+    {
+        "title": "The Aether: Treasure Reforging",
+        "image": "aether-treasure.webp",
+        "link": "https://modrinth.com/mod/aether-treasure-reforging",
+        "info": "Recycle dungeon loot into new equipment through smithing templates and smelted materials"
+    },
+    {
+        "title": "The Aether: Ruined Portals",
+        "image": "aether-ruin.webp",
+        "link": "https://modrinth.com/datapack/aether-ruined-portals",
+        "info": "Adds ruined Aether portals, similar to ruined Nether portals"
+    },
+    {
+        "title": "The Aether: Temporary Freezing",
+        "image": "aether-freeze.webp",
+        "link": "https://modrinth.com/datapack/aether-ruined-portals",
+        "info": "Makes the Aether's ice accessories freeze blocks temporarily, not permanently"
+    },
+    {
+        "title": "Allay Upgrades",
+        "image": "allay-upgrades.webp",
+        "link": "https://modrinth.com/mod/allay_upgrades",
+        "info": "Upgrades Allays with new abilties and QOL features"
+    },
+    {
+        "title": "Amendments",
+        "image": "amendments.webp",
+        "link": "https://modrinth.com/mod/amendments",
+        "info": "Improved visuals and functionality for many vanilla blocks"
+    },
+    {
+        "title": "AppleSkin",
+        "image": "appleskin.webp",
+        "link": "https://modrinth.com/mod/appleskin",
+        "info": "Food/hunger-related HUD improvements"
+    },
+    {
+        "title": "Attack Through Grass",
+        "image": "attackgrass.webp",
+        "link": "https://modrinth.com/mod/attack-through-grass",
+        "info": "Attack through non-collidable blocks like grass and cobwebs"
+    },
+    {
+        "title": "Automobility",
+        "image": "am.webp",
+        "link": "https://modrinth.com/mod/automobility",
+        "info": "Adds buildable and drivable vehicles like cars, tractors, and more"
+    },
+    {
+        "title": "Bear Minimum",
+        "image": "bearminimum.png",
+        "link": "https://modrinth.com/mod/bear-minimum",
+        "info": "Rebalances polar bears & adds black bears, brown bears, and bear meat"
+    },
+    {
+        "title": "Better Mount HUD",
+        "image": "mount.webp",
+        "link": "https://modrinth.com/mod/bear-minimum",
+        "info": "Improves the HUD while riding a mount"
+    },
+    {
+        "title": "Better Snowy Biome",
+        "image": "bettersnow.png",
+        "link": "https://modrinth.com/datapack/better-snowy-biome",
+        "info": "Improves snowy biomes"
+    },
+    {
+        "title": "Better Statistics Screen",
+        "image": "betterstats.webp",
+        "link": "https://modrinth.com/mod/better-stats",
+        "info": "Improves the statistics screen"
+    },
+    {
+        "title": "Better Than Mending",
+        "image": "bettermending.webp",
+        "link": "https://modrinth.com/mod/better-than-mending",
+        "info": "Repair mending-enchanted items with your XP bar"
+    },
+    {
+        "title": "Better Wolf Companion Mod",
+        "image": "betterwolf.png",
+        "link": "https://modrinth.com/mod/better-wolf-companion-mod",
+        "info": "Introduces a wolf inventory, respawn, self-healing, better combat mechanics & more"
+    },
+    {
+        "title": "BetterF3",
+        "image": "betterf3.webp",
+        "link": "https://modrinth.com/mod/betterf3",
+        "info": "Make the F3 menu more readable"
+    },
+    {
+        "title": "Bigger Better End Cities",
+        "image": "betterendcities.webp",
+        "link": "https://modrinth.com/mod/bigger-better-end-cities",
+        "info": "Makes End cities bigger and better"
+    },
+    {
+        "title": "Blasting Plus",
+        "image": "blastingplus.webp",
+        "link": "https://modrinth.com/datapack/blasting-plus",
+        "info": "Makes more items smeltable in a blast furnace"
+    },
+    {
+        "title": "Borderless Fullscreen",
+        "image": "f11.png",
+        "link": "https://modrinth.com/mod/borderless-fullscreen",
+        "info": "Makes the fullscreen mode borderless"
+    },
+    {
+        "title": "Bosses of Mass Destruction",
+        "image": "bomd.webp",
+        "link": "https://modrinth.com/mod/bosses-of-mass-destruction",
+        "info": "Adds 4 new bosses to the game"
+    },
+    {
+        "title": "Brainier Bees",
+        "image": "bees.webp",
+        "link": "https://modrinth.com/mod/brainier-bees",
+        "info": "Fixes and improves Bee behavior and pathing"
+    },
+    {
+        "title": "Breed More Mods",
+        "image": "breedmore.webp",
+        "link": "https://modrinth.com/mod/breed-more-mobs",
+        "info": "Adds breeding for parrots, zombie horses, skeleton horses, and polar bears"
+    },
+    {
+        "title": "Builders Jetpack",
+        "image": "bjp.webp",
+        "link": "https://modrinth.com/mod/builders-jetpack",
+        "info": "Consume fuel to use a jetpack for hummingbird-style flight. Good for building"
+    },
+    {
+        "title": "Bundle Recipe",
+        "image": "bundle.webp",
+        "link": "https://modrinth.com/mod/bundle-recipe",
+        "info": "Backports the bundle recipe from 1.21.2"
+    },
+    {
+        "title": "Call Your Horse",
+        "image": "callhorse.webp",
+        "link": "https://modrinth.com/datapack/call-your-horse",
+        "info": "Use a goat horn to summon tamed horses"
+    },
+    {
+        "title": "Cat Jam",
+        "image": "catjam.webp",
+        "link": "https://modrinth.com/mod/cat_jam",
+        "info": "Cats will now jam when near active jukeboxes"
+    },
+    {
+        "title": "Chalk",
+        "image": "chalk.webp",
+        "link": "https://modrinth.com/mod/chalk",
+        "info": "Adds the ability to draw on blocks with chalk"
+    },
+    {
+        "title": "Chalk: Colorful Addon",
+        "image": "colorchalk.webp",
+        "link": "https://modrinth.com/mod/chalk-colorful-addon",
+        "info": "Adds additional colors to the Chalk mod"
+    },
+    {
+        "title": "Charta",
+        "image": "charta.png",
+        "link": "https://modrinth.com/mod/charta",
+        "info": "Adds Crazy Eights, Uno, and Solitaire decks and card tables supporting up to 8 players"
+    },
+    {
+        "title": "Chat Animation",
+        "image": "chatanim.webp",
+        "link": "https://modrinth.com/mod/chatanimation",
+        "info": "Adds smooth animations to chat messages"
+    },
+    {
+        "title": "Chat Heads",
+        "image": "chatheads.webp",
+        "link": "https://modrinth.com/mod/chat-heads",
+        "info": "Adds player faces to chat messages"
+    },
+    {
+        "title": "Chococraft",
+        "image": "choco.webp",
+        "link": "https://modrinth.com/mod/chococraft",
+        "info": "Adds rideable and breedable Chocobos"
+    },
+    {
+        "title": "Chunks Fade In",
+        "image": "chunkfade.webp",
+        "link": "https://modrinth.com/mod/chunks-fade-in",
+        "info": "Adds a smooth fade-in animation for chunk loading"
+    },
+    {
+        "title": "Clumps",
+        "image": "clumps.webp",
+        "link": "https://modrinth.com/mod/clumps",
+        "info": "Clumps XP orbs together to reduce lag and improve performance"
+    },
+    {
+        "title": "Comforts",
+        "image": "comforts.webp",
+        "link": "https://modrinth.com/mod/comforts",
+        "info": "Adds sleeping bads and hammocks for skipping the night without setting a new spawn point"
+    },
+    {
+        "title": "Compact Chat",
+        "image": "compactchat.webp",
+        "link": "https://modrinth.com/mod/compact-chat",
+        "info": "Compacts duplicate chat messages into one"
+    },
+    {
+        "title": "Concurrent Chunk Management Engine",
+        "image": "c2me.webp",
+        "link": "https://modrinth.com/mod/c2me-fabric",
+        "info": "Dramatically improves chunk loading performance"
+    },
+    {
+        "title": "Controlling",
+        "image": "controlling.webp",
+        "link": "https://modrinth.com/mod/controlling",
+        "info": "Adds a searchbar to the keybinds menu"
+    },
+    {
+        "title": "Cool Rain",
+        "image": "coolrain.png",
+        "link": "https://modrinth.com/mod/coolrain",
+        "info": "Creates ambient sounds for certain blocks during rain"
+    },
+    {
+        "title": "Craftable Capes",
+        "image": "craftcapes.webp",
+        "link": "https://modrinth.com/mod/craftablecapes",
+        "info": "Adds craftable capes, including previous rare event capes"
+    },
+    {
+        "title": "Critter Armory",
+        "image": "critter.png",
+        "link": "https://modrinth.com/mod/critter-armory",
+        "info": "Adds armor and feed for pigs, cows, sheep, chicken, wolves, and cats"
+    },
+    {
+        "title": "Dark Paintings",
+        "image": "darkpt.webp",
+        "link": "https://modrinth.com/mod/dark-paintings",
+        "info": "Adds more paintings (Modified by the Party Alternative resource pack)"
+    },
+    {
+        "title": "Deeper and Darker",
+        "image": "deepdark.webp",
+        "link": "https://modrinth.com/mod/deeperdarker",
+        "info": "Kill the warden and visit the Otherside, a dimension filled with new blocks, mobs, biomes, & items"
+    },
+    {
+        "title": "Door Knocking",
+        "image": "knocking.webp",
+        "link": "https://modrinth.com/mod/door-knocking",
+        "info": "Allows you to knock on doors by left-clicking"
+    },
+    {
+        "title": "Easy Anvils",
+        "image": "easyanvils.webp",
+        "link": "https://modrinth.com/mod/easy-anvils",
+        "info": "Removes prior work penalty & level limits, anvils can now be repaired, & more"
+    },
+    {
+        "title": "Easy Magic",
+        "image": "easymagic.webp",
+        "link": "https://modrinth.com/mod/easy-magic",
+        "info": "Cheaper enchantment rerolls, new hopper & comparator functionality, & more"
+    },
+    {
+        "title": "Elytra Trinket",
+        "image": "elytratrinket.webp",
+        "link": "https://modrinth.com/mod/elytra_trinket",
+        "info": "Allows Elytras to be equipped in the cape slot, freeing up the chestplate slot (Doesn't work with Soul Elytra)"
+    },
+    {
+        "title": "Entity Culling",
+        "image": "entitycull.webp",
+        "link": "https://modrinth.com/mod/entityculling",
+        "info": "Improve performance by not rendering entities that are not visible to the player"
+    },
+    {
+        "title": "Even More Instruments",
+        "image": "emi.webp",
+        "link": "https://modrinth.com/mod/evenmoreinstruments",
+        "info": "Add-on to the Genshin instruments mod that adds instruments for normal people"
+    },
+    {
+        "title": "Explorer's Compass",
+        "image": "explorercompass.webp",
+        "link": "https://modrinth.com/mod/explorers-compass",
+        "info": "Allows players to locate structures anywhere in the world"
+    },
+    {
+        "title": "Explorify",
+        "image": "explorify.webp",
+        "link": "https://modrinth.com/datapack/explorify",
+        "info": "Adds new additional structures to the Overwld, Nether, & End"
+    },
+    {
+        "title": "Explosive Enhancements",
+        "image": "explosive.webp",
+        "link": "https://modrinth.com/mod/explosive-enhancement",
+        "info": "Makes explosions look better, and adds variable sizing & underwater explosions"
+    },
+    {
+        "title": "Exposure",
+        "image": "exposure.webp",
+        "link": "https://modrinth.com/mod/exposure",
+        "info": "Adds a handheld camera system, including film, development, flashbulbs, & wall-mounted photos"
+    },
+    {
+        "title": "Exposure: Polaroid",
+        "image": "polaroid.webp",
+        "link": "https://modrinth.com/mod/exposure-polaroid",
+        "info": "Adds an instant camera for the Exposure mod"
+    },
+    {
+        "title": "Falling Leaves",
+        "image": "fallingleaves.webp",
+        "link": "https://modrinth.com/mod/fallingleaves",
+        "info": "Adds falling leaf particle effects to leaf blocks"
+    },
+    {
+        "title": "FallingTree",
+        "image": "fallingtree.webp",
+        "link": "https://modrinth.com/mod/fallingtree",
+        "info": "Take down entire trees and their leaves by breaking the bottom log"
+    },
+    {
+        "title": "Farmer's Delight",
+        "image": "farmdelight.webp",
+        "link": "https://modrinth.com/mod/farmers-delight-refabricated",
+        "info": "New crops, foods, and an expanded farming and cooking system"
+    },
+    {
+        "title": "Farmer's Cutting: The Aether",
+        "image": "farmercutaether.webp",
+        "link": "https://modrinth.com/datapack/farmers-cutting-the-aether",
+        "info": "Adds more Famer's Deligh cutting board recipes for The Aether"
+    },
+    {
+        "title": "Fast Minecart",
+        "image": "fastminecart.webp",
+        "link": "https://modrinth.com/mod/fast-minecart",
+        "info": "Makes the minecarts twice as fast"
+    },
+    {
+        "title": "Fast Paintings",
+        "image": "fastpaint.webp",
+        "link": "https://modrinth.com/mod/fast-paintings",
+        "info": "Optimizes the rendering of paintings to improve performance"
+    },
+    {
+        "title": "FerriteCore",
+        "image": "ferritecore.webp",
+        "link": "https://modrinth.com/mod/ferrite-core",
+        "info": "Optimizes memory usage to improve performance"
+    },
+    {
+        "title": "Fish of Thieves",
+        "image": "fot.webp",
+        "link": "https://modrinth.com/mod/fish-of-thieves",
+        "info": "Adds additional fish from Sea of Thieves."
+    },
+    {
+        "title": "Food Effect Tooltips",
+        "image": "fet.png",
+        "link": "https://modrinth.com/mod/foodeffecttooltips",
+        "info": "Adds tooltips detailing the effects of certain food items"
+    },
+    {
+        "title": "Full Turtle Armor",
+        "image": "turtlearmor.webp",
+        "link": "https://modrinth.com/mod/full-turtle-armor",
+        "info": "Adds a chestplate, leggings, and boots to complete the turtle armor set. Good underwater"
+    },
+    {
+        "title": "Genshin Instruments",
+        "image": "gi.webp",
+        "link": "https://modrinth.com/mod/genshin-instruments",
+        "info": "Adds Genshin Impact's musical instruments to Minecraft"
+    },
+    {
+        "title": "Geophilic",
+        "image": "geo.webp",
+        "link": "https://modrinth.com/datapack/geophilic",
+        "info": "A subtle overhaul of vanilla overworld biomes"
+    },
+    {
+        "title": "Gipples Galore",
+        "image": "gipple.webp",
+        "link": "https://modrinth.com/mod/gipples-galore",
+        "info": "Adds friendly cave mobs that produce edible gelatin. Breeding may produce hostile variants"
+    },
+    {
+        "title": "Glowing Torchflower",
+        "image": "gtf.webp",
+        "link": "https://modrinth.com/mod/glowing-torchflower",
+        "info": "Makes torchflowers glow"
+    },
+    {
+        "title": "GPUTape",
+        "image": "gputape.png",
+        "link": "https://modrinth.com/mod/gputape",
+        "info": "Fixes VRAM leaks to improve performance"
+    },
+    {
+        "title": "Hearths",
+        "image": "hearths.webp",
+        "link": "https://modrinth.com/datapack/hearths",
+        "info": "Improves several Nether biomes and adds new structures"
+    },
+    {
+        "title": "Heartstone",
+        "image": "heartstone.webp",
+        "link": "https://modrinth.com/mod/heartstone",
+        "info": "Allows players to locate each other"
+    },
+    {
+        "title": "Held Item Tooltips",
+        "image": "hit.webp",
+        "link": "https://modrinth.com/mod/held-item-tooltips",
+        "info": "Shows tooltips above the hotbar when switching items"
+    },
+    {
+        "title": "Horse Buff",
+        "image": "horsebuff.webp",
+        "link": "https://modrinth.com/mod/horsebuff",
+        "info": "Quality of life tweaks for riding horses"
+    },
+    {
+        "title": "Immersive Aircraft",
+        "image": "ia.webp",
+        "link": "https://modrinth.com/mod/immersive-aircraft",
+        "info": "Build and fly planes, airships, and copeters"
+    },
+    {
+        "title": "Iris Shaders",
+        "image": "iris.webp",
+        "link": "https://modrinth.com/mod/iris",
+        "info": "Enables the use of shader packs"
+    },
+    {
+        "title": "Jade",
+        "image": "jade.webp",
+        "link": "https://modrinth.com/mod/jade",
+        "info": "Displays information about blocks and entities when looking at them"
+    },
+    {
+        "title": "Jade Addons",
+        "image": "jade.webp",
+        "link": "https://modrinth.com/mod/jade-addons-fabric",
+        "info": "Adds Jade support for Supplementaries"
+    },
+    {
+        "title": "Jade: Your Reputation",
+        "image": "yrj.webp",
+        "link": "https://modrinth.com/mod/your-reputation-jade",
+        "info": "Adds Villager reputation information on Villagers' tooltips"
+    },
+    {
+        "title": "Just Enough Items",
+        "image": "jei.webp",
+        "link": "https://modrinth.com/mod/jei",
+        "info": "View all items and recipes in crafting menus"
+    },
+    {
+        "title": "Just Hammers",
+        "image": "hammer.webp",
+        "link": "https://modrinth.com/mod/just-hammers",
+        "info": "Adds hammers that can mine out large areas quickly"
+    },
+    {
+        "title": "Kaffee's Dual Ride",
+        "image": "kaffee.webp",
+        "link": "https://modrinth.com/mod/kaffees_dual_ride",
+        "info": "Allows two players to ride the same horse, donkey, or mule"
+    },
+    {
+        "title": "LambDynamicLights",
+        "image": "ldl.png",
+        "link": "https://modrinth.com/mod/lambdynamiclights",
+        "info": "Makes dropped or held items & various entities emit light"
+    },
+    {
+        "title": "Lead Recipe Backport",
+        "image": "lrb.webp",
+        "link": "https://modrinth.com/datapack/leadrecipebackport",
+        "info": "Backports the lead recipe from 1.21.6"
+    },
+    {
+        "title": "Leaf Me Alone",
+        "image": "lma.webp",
+        "link": "https://modrinth.com/mod/leaf-me-alone",
+        "info": "Allows you to pass through leaves while riding a mount"
+    },
+    {
+        "title": "Lighty",
+        "image": "lighty.webp",
+        "link": "https://modrinth.com/mod/lighty",
+        "info": "Allows you to visualize light levels and see where mobs can spawn"
+    },
+    {
+        "title": "Lithium",
+        "image": "lithium.webp",
+        "link": "https://modrinth.com/mod/lithium",
+        "info": "Game logic optimization mod that improves performance"
+    },
+    {
+        "image": "lovely-snails.png",
+        "link": "https://modrinth.com/mod/lovely_snails",
+        "title": "Lovely Snails",
+        "info": "Adds tamable pet snails to the game"
+    },
+    {
+        "title": "Luna Slimes",
+        "image": "luna.webp",
+        "link": "https://modrinth.com/mod/luna-slimes",
+        "info": "Improves animations and overhauls behavior for slimes and magma cubes"
+    },
+    {
+        "image": "macaw-bridge.webp", 
+        "link": "https://modrinth.com/mod/macaws-bridges",
+        "title": "Macaw's Bridges",
+        "info": "Adds a variety of craftable bridge blocks"
+    },
+    {
+        "image": "macaw-door.webp",
+        "link": "https://modrinth.com/mod/macaws-doors", 
+        "title": "Macaw's Doors",
+        "info": "Adds additional craftable doors, including garage and gate doors"
+    },
+    {
+        "image": "macaw-trapdoor.webp",
+        "link": "https://modrinth.com/mod/macaws-trapdoors", 
+        "title": "Macaw's Trapdoors",
+        "info": "Adds additional craftable trapdoors"
+    },
+    {
+        "image": "macaw-window.webp",
+        "link": "https://modrinth.com/mod/macaws-windows", 
+        "title": "Macaw's Windows",
+        "info": "Adds new varities of craftable windows, blinds, shutters, curtains, and more"
+    },
+    {
+        "title": "Magic Mirror",
+        "image": "mirror.webp",
+        "link": "https://modrinth.com/mod/qds-magic-mirror",
+        "info": "Adds an item that teleports you to your spawn point if you're in the Overworld"
+    },
+    {
+        "title": "Make Bubbles Pop",
+        "image": "bpop.webp",
+        "link": "https://modrinth.com/mod/make_bubbles_pop",
+        "info": "Adds popping and realistic physics to bubbles and adds them to underwater containers & explosions"
+    },
+    {
+        "title": "MasterCutter",
+        "image": "cutter.webp",
+        "link": "https://modrinth.com/datapack/mastercutter",
+        "info": "Greatly expands the functionality of the stonecutter with way more recipes, recycling, & woodcutting"
+    },
+    {
+        "title": "Miku Plushies",
+        "image": "miku.webp",
+        "link": "https://modrinth.com/mod/miku-plushies",
+        "info": "Craftable Hatsune Miku plushies. Can be placed in the world or worn on your head"
+    },
+    {
+        "title": "MmmMmmMmmMmm",
+        "image": "targetdummy.webp",
+        "link": "https://modrinth.com/mod/mmmmmmmmmmmm",
+        "info": "Target Dummy that shows damage dealt and can be equipped with armor"
+    },
+    {
+        "image": "moar.png",
+        "link": "https://modrinth.com/mod/moar-concrete", 
+        "title": "Moar Concrete",
+        "info": "Adds colored concrete slabs, stairs, walls, fences, gates, bricks, panels, and buttons"
+    },
+    {
+        "title": "Moog's Missing Villages",
+        "image": "mmv.png",
+        "link": "https://modrinth.com/mod/mmv-moogs-missing-villages",
+        "info": "Adds jungle and swamp villages to the game"
+    },
+    {
+        "title": "Mod Menu",
+        "image": "modmenu.jpg",
+        "link": "https://modrinth.com/mod/modmenu",
+        "info": "Adds a mod menu to view the list of mods you have installed."
+    },
+    {
+        "title": "ModernFix",
+        "image": "modernfix.webp",
+        "link": "https://modrinth.com/mod/modmenu",
+        "info": "Improves performance, reduces memory usage, and fixes many bugs"
+    },
+    {
+        "title": "More Delight",
+        "image": "moredelight.webp",
+        "link": "https://modrinth.com/mod/more-delight",
+        "info": "Extra meals, sandwich-making, and morme features for Farmer's Delight"
+    },
+    {
+        "title": "More Villagers: Re-employed",
+        "image": "mkr.webp",
+        "link": "https://modrinth.com/mod/more-villagers-re-employed",
+        "info": "Adds more villager professions and workstations"
+    },
+    {
+        "title": "Slime Golem",
+        "image": "slimegolem.webp",
+        "link": "https://modrinth.com/mod/muffins-slime-golem",
+        "info": "Adds a Slime Golem that helps you find slime chunks, and new slime-related items and blocks"
+    },
+    {
+        "title": "Music Maker",
+        "image": "musicmaker.webp",
+        "link": "https://modrinth.com/mod/music-maker-mod",
+        "info": "Adds music sheets for composing, instruments for freestyling, and a music box to combine them"
+    },
+    {
+        "title": "Nameless Trinkets",
+        "image": "nt.png",
+        "link": "https://modrinth.com/mod/nameless-trinkets",
+        "info": "Adds various trinkets with unique effects and abilities to loot chests"
+    },
+    {
+        "title": "Nature's Compass",
+        "image": "naturecompass.webp",
+        "link": "https://modrinth.com/mod/natures-compass",
+        "info": "Allows players to locate biomes anywhere in the world"
+    },
+    {
+        "title": "Nether Depths Upgrade",
+        "image": "ndepths.webp",
+        "link": "https://modrinth.com/mod/nether-depths-upgrade",
+        "info": "Adds new plants and fish to the Nether sea, and a new potion & enchant for exploring lava lakes"
+    },
+    {
+        "title": "NetherPortalFix",
+        "image": "portalfix.webp",
+        "link": "https://modrinth.com/mod/netherportalfix",
+        "info": "Fixes routing issues with close-together Nether portals"
+    },
+    {
+        "title": "No Animal Tempt Delay",
+        "image": "natd.webp",
+        "link": "https://modrinth.com/mod/no-animal-tempt-delay",
+        "info": "Removes the cooldown period on luring animals with food"
+    },
+    {
+        "title": "No Chat Reports",
+        "image": "nochatreports.webp",
+        "link": "https://modrinth.com/mod/no-chat-reports",
+        "info": "Strips cryptographics signatures from chat messages & prevents chat reports"
+    },
+    {
+        "title": "No Enchant Block",
+        "image": "noeblock.webp",
+        "link": "https://modrinth.com/datapack/no-enchant-block",
+        "info": "Expands the list of blocks you can place around enchanting tables without blocking them"
+    },
+    {
+        "title": "No More Phantoms",
+        "image": "nophantoms.webp",
+        "link": "https://modrinth.com/datapack/nomorephantoms",
+        "info": "Removes phantoms and provides an alternate recipe for phantom membranes"
+    },
+    {
+        "title": "No Telemetry",
+        "image": "notelem.webp",
+        "link": "https://modrinth.com/mod/no-telemetry",
+        "info": "Removes Mojang's data collection/telemetry"
+    },
+    {
+        "title": "Noisium",
+        "image": "noisium.webp",
+        "link": "https://modrinth.com/mod/noisium",
+        "info": "Optimizes world generation performance"
+    },
+    {
+        "title": "Paginated Advancements & Custom Frames",
+        "image": "adv.webp",
+        "link": "https://modrinth.com/mod/paginatedadvancements",
+        "info": "Overhauls the advancements screen with pagination and custom frames"
+    },
+    {
+        "title": "Particle Rain",
+        "image": "prain.png",
+        "link": "https://modrinth.com/mod/particle-rain",
+        "info": "Replaces weather with prettier particle effects"
+    },
+    {
+        "title": "Particular",
+        "image": "particular.webp",
+        "link": "https://modrinth.com/mod/particular",
+        "info": "Adds new particle effects like fireflies and waterfall cascades"
+    },
+    {
+        "title": "Peek",
+        "image": "peek.webp",
+        "link": "https://modrinth.com/mod/peek",
+        "info": "Adds additional information about items and blocks"
+    },
+    {
+        "title": "Persistent Parrots",
+        "image": "parrots.webp",
+        "link": "https://modrinth.com/mod/persistent-parrots",
+        "info": "Parrots will stay perched on your shoulder more consistently"
+    },
+    {
+        "title": "Pet Protect",
+        "image": "pprot.webp",
+        "link": "https://modrinth.com/mod/petprotect",
+        "info": "Prevent your tamed mobs from tacking damage from you"
+    },
+    {
+        "title": "Pick Up Notifier",
+        "image": "pun.webp",
+        "link": "https://modrinth.com/mod/pick-up-notifier",
+        "info": "Little pop-ups in the bottom right corner when you pick things up"
+    },
+    {
+        "title": "Plushie Mod",
+        "image": "plush.webp",
+        "link": "https://modrinth.com/mod/plushie",
+        "info": "Adds plushies of various mobs"
+    },
+    {
+        "title": "Pocketwatch",
+        "image": "pocketwatch.webp",
+        "link": "https://modrinth.com/mod/pocketwatch",
+        "info": "Display informational items like compasses and clocks to the right of your hotbar"
+    },
+    {
+        "title": "Polymorph",
+        "image": "polymorph.webp",
+        "link": "https://modrinth.com/mod/polymorph",
+        "info": "If a crafting recipe creates multiple potential items, you can choose which one to craft"
+    },
+    {
+        "title": "Potion Cauldron",
+        "image": "pcaul.webp",
+        "link": "https://modrinth.com/mod/potion-cauldron",
+        "info": "Store potions in cauldrons and use them to make tipped arrows"
+    },
+    {
+        "image": "potionstack.webp",
+        "link": "https://modrinth.com/mod/potion-stacking", 
+        "title": "Potion Stacking",
+        "info": "Allows potions to be stored and used in stacks of 16. Cooldown of 1 second between uses"
+    },
+    {
+        "title": "Raccoons & Rabies",
+        "image": "raccoons.png",
+        "link": "https://modrinth.com/mod/raccoons-rabies",
+        "info": "Adds tameable raccoons that spawn in the forest biome. They deal rabies damage, avoidable via bandit armor"
+    },
+    {
+        "title": "Raised",
+        "image": "raised.webp",
+        "link": "https://modrinth.com/mod/raised",
+        "info": "Fixes a graphical bug with the hotbar"
+    },
+    {
+        "title": "Reforged",
+        "image": "ref.webp",
+        "link": "https://modrinth.com/mod/tiered",
+        "info": "Adds rerollable modifiers to armor and tools"
+    },
+    {
+        "title": "Reimagined Trims",
+        "image": "retrim.webp",
+        "link": "https://modrinth.com/datapack/reimagined-trims",
+        "info": "Overhauls and balances armor trim recipes"
+    },
+    {
+        "image": "rebarrel.webp",
+        "link": "https://modrinth.com/mod/reinforced-barrels", 
+        "title": "Reinforced Barrels",
+        "info": "Adds tiered barrel ugprades with increased storage capacity"
+    },
+    {
+        "image": "rechest.webp",
+        "link": "https://modrinth.com/mod/reinforced-chests", 
+        "title": "Reinforced Chests",
+        "info": "Adds tiered chest ugprades with increased storage capacity"
+    },
+    {
+        "image": "reshulker.webp",
+        "link": "https://modrinth.com/mod/reinforced-shulker-boxes", 
+        "title": "Reinforced Shulker Boxes",
+        "info": "Adds tiered shulker box ugprades with increased storage capacity"
+    },
+    {
+        "title": "RightClickHarvest",
+        "image": "rch.webp",
+        "link": "https://modrinth.com/mod/rightclickharvest",
+        "info": "Right click to harvest crops and automatically replant. Fortune hoes increase yield"
+    },
+    {
+        "title": "Rustic Delight",
+        "image": "rdel.webp",
+        "link": "https://modrinth.com/mod/rustic-delight",
+        "info": "An add-on for Farmer's Delight that adds Pancakes, Cotton, Coffee, Bell Peppers, fried foods and more"
+    },
+    {
+        "title": "Screenshot to Clipboard",
+        "image": "s2c.webp",
+        "link": "https://modrinth.com/mod/screenshot-to-clipboard",
+        "info": "Screenshots are also copied to the clipboard"
+    },
+    {
+        "title": "Screenshot Viewer",
+        "image": "sview.webp",
+        "link": "https://modrinth.com/mod/screenshot-viewer",
+        "info": "Adds a screenshto viewer GUI to the game"
+    },
+    {
+        "title": "Scribble",
+        "image": "scribble.webp",
+        "link": "https://modrinth.com/mod/scribble",
+        "info": "Improves text formatting in written books"
+    },
+    {
+        "title": "Shulker Drops Two",
+        "image": "sd2.webp",
+        "link": "https://modrinth.com/mod/shulker-drops-two",
+        "info": "Shulkers now drop 2 shells"
+    },
+    {
+        "title": "Simple Discord RPC",
+        "image": "rpc.webp",
+        "link": "https://modrinth.com/mod/simple-discord-rpc",
+        "info": "Adds Discord Rich Presence support"
+    },
+    {
+        "title": "Simple Hats",
+        "image": "shats.webp",
+        "link": "https://modrinth.com/mod/simple-hats",
+        "info": "Adds hats, some of which are dyeable or have particle effects"
+    },
+    {
+        "title": "Simple Voice Chat",
+        "image": "svc.webp",
+        "link": "https://modrinth.com/plugin/simple-voice-chat",
+        "info": "Adds proximity-based voice chat"
+    },
+    {
+        "title": "Simply Swords",
+        "image": "swords.webp",
+        "link": "https://modrinth.com/mod/simply-swords",
+        "info": "Adds 14 unique weapon variants to the vanilla swords, and powerful loot-chest-excclusive weapons"
+    },
+    {
+        "title": "Simple Voice Chat Interaction",
+        "image": "vci.webp",
+        "link": "https://modrinth.com/mod/voice-chat-interaction",
+        "info": "Voice chat can activate Sculk Sensors and the Warden unless sneaking/whispering"
+    },
+    {
+        "title": "Snow Pig",
+        "image": "spig.webp",
+        "link": "https://modrinth.com/mod/snowpig-fabric",
+        "info": "Adds snow pigs that spawn in snowy biomes"
+    },
+    {
+        "title": "Snuffles",
+        "image": "snuffles.webp",
+        "link": "https://modrinth.com/mod/snuffles-fabric",
+        "info": "Adds friendly snuffles that spawn in snowy biomes"
+    },
+    {
+        "title": "Sodium",
+        "image": "sodium.webp",
+        "link": "https://modrinth.com/mod/sodium",
+        "info": "Rendering optimization mod that drastically improves FPS"
+    },
+    {
+        "title": "Soul Candles",
+        "image": "scandles.webp",
+        "link": "https://modrinth.com/mod/soul-candles",
+        "info": "Adds soul fire candles and jack-o-lanterns"
+    },
+    {
+        "title": "Soul Fire'd",
+        "image": "sfire.webp",
+        "link": "https://modrinth.com/mod/soul-fire-d",
+        "info": "Makes the soul fire overlay blue, and adds Soul Fire Aspect and Soul Flame enchantments"
+    },
+    {
+        "title": "Sound Physics Remastered",
+        "image": "spr.webp",
+        "link": "https://modrinth.com/mod/sound-physics-remastered",
+        "info": "Adds realistic sound physics to in-game sounds and proximity voice chat"
+    },
+    {
+        "title": "Spyglass Astronomy",
+        "image": "spa.webp",
+        "link": "https://modrinth.com/mod/spyglass-astronomy",
+        "info": "Observe planets and stars, name planets, and draw constellations"
+    },
+    {
+        "title": "Spyglass Improvements",
+        "image": "spi.webp",
+        "link": "https://modrinth.com/mod/spyglass-improvements",
+        "info": "Adds various functionality and improvements to the spyglass"
+    },
+    {
+        "title": "Stack Refill",
+        "image": "str.webp",
+        "link": "https://modrinth.com/mod/stack-refill",
+        "info": "Automatically refill the item in your hand when it runs out if a replacement is available in your inventory"
+    },
+    {
+        "image": "stackblock.gif",
+        "link": "https://modrinth.com/mod/stacked-blocks", 
+        "title": "Stacked Blocks",
+        "info": "Allows many blocks to be crafted 8:1 into stacked blocks using leads"
+    },
+    {
+        "title": "Status Effect Bars",
+        "image": "seb.webp",
+        "link": "https://modrinth.com/mod/status-effect-bars",
+        "info": "Adds customizable bars to the status effects overlay to show the remaining duration of effects."
+    },
+    {
+        "title": "Structory",
+        "image": "stc.png",
+        "link": "https://modrinth.com/datapack/structory",
+        "info": "Adds more structures to the Overworld"
+    },
+    {
+        "title": "Structory: Towers",
+        "image": "stt.png",
+        "link": "https://modrinth.com/datapack/structory-towers",
+        "info": "Adds biome-themed tower structures to the Overworld, Nether, and End"
+    },
+    {
+        "title": "Supplementaries",
+        "image": "supp.webp",
+        "link": "https://modrinth.com/mod/supplementaries",
+        "info": "Adds additional functional and aesthetic blocks and items"
+    },
+    {
+        "title": "Supplementaries Squared",
+        "image": "supps.webp",
+        "link": "https://modrinth.com/mod/supplementaries-squared",
+        "info": "Adds extra content to Supplementaries"
+    },
+    {
+        "title": "Text Formatting Everywhere",
+        "image": "tfe.png",
+        "link": "https://modrinth.com/mod/text-formatting-everywhere",
+        "info": "Removes restriction in typing section sign (§), so you can use text formatting everywhere."
+    },
+    {
+        "title": "Tide",
+        "image": "tide.png",
+        "link": "https://modrinth.com/mod/tide",
+        "info": "Adds 60+ new fish, fishable crates, a fishing rod upgrade system, a fishing journal, and a modular hook/bait/line system"
+    },
+    {
+        "title": "Tiny Item Animations",
+        "image": "tia.webp",
+        "link": "https://modrinth.com/mod/tiny-item-animations",
+        "info": "Adds little animations when you pick up and move items"
+    },
+    {
+        "title": "Toggle Item Frames",
+        "image": "tif.webp",
+        "link": "https://modrinth.com/mod/toggle-item-frames",
+        "info": "Make item frames invisible by right-clicking with an empty hand while sneaking"
+    },
+    {
+        "title": "Trinkets",
+        "image": "tk.webp",
+        "link": "https://modrinth.com/mod/trinkets",
+        "info": "Adds a group/slot system for equipping items. Integrates with accessories"
+    },
+    {
+        "title": "Trowel",
+        "image": "trowel.webp",
+        "link": "https://modrinth.com/mod/trowel",
+        "info": "Adds a tool that, when right-clicked, will pick a random black from your hotbar and place it down"
+    },
+    {
+        "title": "Unnamed Sea",
+        "image": "uns.png",
+        "link": "https://modrinth.com/mod/unnamed-sea",
+        "info": "Adds beach and ocean-focused structures"
+    },
+    {
+        "title": "Vanilla Backport",
+        "image": "vbp.png",
+        "link": "https://modrinth.com/mod/vanillabackport",
+        "info": "Backports modern Minecraft content updates to the current version"
+    },
+    {
+        "title": "Vanilla Tweaks - Crafting Tweaks",
+        "image": "vt.png",
+        "link": "https://modrinth.com/mod/vanillabackport",
+        "info": "Dropper to Dispenser, Rotten Flesh to Leather, Copper Powered Rails, Sandstone Dyeing, Powder to Glass, Universal Dyeing, Craftable Gravel, Craftable Horse Armor, Craftable Coral Blocks 3x3, Craftable Enchanted Golden Apples, Craftable Nametags, Unpackable Ice, Unpackable Nether Ward, Unpackable Wool"
+    },
+    {
+        "title": "Vanilla Tweaks - Data Packs",
+        "image": "vt.png",
+        "link": "https://modrinth.com/mod/vanillabackport",
+        "info": "Custom Nether Portals, Mini Blocks, More Mob Heads, Player Head Drops, Silence Mobs, Wandering Trades, Cauldron Concrete, Cauldron Mud, Ender Chest Always Drops, Unlock All Recipes, Graves, AFK Display, Villager Death Messages, Wandering Trader Announcements"
+    },
+    {
+        "title": "Verdance",
+        "image": "vde.webp",
+        "link": "https://vanillatweaks.net/picker/crafting-tweaks/",
+        "info": "Adds new biomes, blocks, and mobs with a focus on plant life"
+    },
+    {
+        "title": "Villages & Pillages",
+        "image": "vnp.webp",
+        "link": "https://modrinth.com/mod/villages-and-pillages",
+        "info": "Adds villages populated only by witches"
+    },
+    {
+        "title": "Visuality",
+        "image": "vsu.webp",
+        "link": "https://modrinth.com/mod/visuality",
+        "info": "Adds fancy new particle effects"
+    },
+    {
+        "title": "Wakes",
+        "image": "wakes.webp",
+        "link": "https://modrinth.com/mod/wakes",
+        "info": "Adds wake effects to entities that move through water, like boats and players"
+    },
+    {
+        "title": "Warden Bossbars",
+        "image": "wbb.png",
+        "link": "https://modrinth.com/datapack/warden-bossbar-dp",
+        "info": "Adds bossbars to all Wardens within 100 block of the player"
+    },
+    {
+        "title": "Waystones",
+        "image": "wstones.webp",
+        "link": "https://modrinth.com/mod/waystones",
+        "info": "Adds Waystones that players can warp to once they've been activated via Warp Scrolls, Warp Stones, or other Waystones"
+    },
+    {
+        "title": "YUNG's Better Desert Temples",
+        "image": "ybd.webp",
+        "link": "https://modrinth.com/mod/yungs-better-desert-temples",
+        "info": "Overhauls the vanilla desert temples"
+    },
+    {
+        "title": "YUNG's Better Jungle Temples",
+        "image": "ybj.webp",
+        "link": "https://modrinth.com/mod/yungs-better-jungle-temples",
+        "info": "Overhauls the vanilla jungle temples"
+    },
+    {
+        "title": "YUNG's Better Mineshafts",
+        "image": "ybm.webp",
+        "link": "https://modrinth.com/mod/yungs-better-mineshafts",
+        "info": "Overhauls the vanilla abandoned mineshafts"
+    },
+    {
+        "title": "YUNG's Bridges",
+        "image": "yb.webp",
+        "link": "https://modrinth.com/mod/yungs-bridges",
+        "info": "Hold Q to wind up your arm and release to throw items"
+    }
+]

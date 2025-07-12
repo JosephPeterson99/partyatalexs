@@ -5,143 +5,174 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Party at Alex's</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
 </head>
 <body>
     <div class="container">
+
+        <!-- HEADER AND SPLASH TEXT -->
         <div id="header-section">
             <?php 
                 include('logo.php');
-                render_logo(); // No parameter - will use random text from JSON
+                render_logo();
             ?>
         </div>
-          <!-- Navbar section -->
-        <div class="navbar-wrapper">
-            <nav class="navbar">
-                <a href="#header-section" class="btn-play"><img src="img/btn/btn-play.png" alt="Play Now"></a>
-                <a href="#event-details" class="btn-rules"><img src="img/btn/btn-rules.png" alt="Rules"></a>
-                <a href="#map" class="btn-map"><img src="img/btn/btn-map.png" alt="Live Map"></a>
-                <a href="#event-details" class="btn-mods"><img src="img/btn/btn-mods.png" alt="Mods & Datapacks"></a>
+        
+        <!-- NAVBAR -->
+        <div class="navbar-wrapper">            <nav class="navbar">
+                <a href="#playnow" class="btn-play"><img src="img/btn/btn-play.png" alt="Play Now"></a>
+                <a href="#rules" class="btn-rules"><img src="img/btn/btn-rules.png" alt="Rules"></a>
+                <a href="http://map.partyatalexs.xyz" class="btn-map" target="_blank" rel="noopener noreferrer"><img src="img/btn/btn-map.png" alt="Live Map"></a>
+                <a href="#mods" class="btn-mods"><img src="img/btn/btn-mods.png" alt="Modpack"></a>
             </nav>
         </div>
         
         <main>
-            <!-- Empty red rectangular sections -->
-            <div class="section-container" id="event-details">
-                <section class="event-details">
-                    <h2>Event Details</h2>
-                    <p><strong>Date:</strong> June 15, 2025</p>
-                    <p><strong>Time:</strong> 8:00 PM - 2:00 AM</p>
-                    <p><strong>Location:</strong> Alex's Place</p>
-                    <p><strong>Days until party:</strong> 27 days</p>
-                </section>
-            </div>
-            
+            <!-- ABOUT SECTION -->
             <div class="section-container" id="about">
                 <section class="about">
-                    <h2>About the Party</h2>
-                    <p>Get ready for the most exciting party of the year! We've got amazing music, delicious food, and the coolest people in town.</p>
-                    <p>Don't miss out on this incredible night!</p>
+                    <h2 style="color: #ff0;">Welcome!</h2>
+                    <p>Party at Alex's is a 24/7 modded Minecraft server. The game runs on version 1.21.1, but features backported content
+                        from future game versions.
+                    </p>
+                    <br>
+                    <p>
+             <!-- <span class="yellow-splash"><a href="./files/dummy.txt" download>Modrinth launcher</a></span>, as it will make -->
+
+                        The Party Pack modpack
+                        includes proximity voice chat, tons of quality of life features, overhaul to world
+                        generation (including new biomes and structures), new mobs, new items, new blocks overhauled fishing and farming,
+                        multiple new dimensions to explore, and more!
+                    </p>
                 </section>
             </div>
-            
-            <div class="section-container" id="rsvp">
-                <section class="rsvp">
-                    <h2>RSVP</h2>
-                    <form>
-                        <div class="form-group">
-                            <label for="name">Name:</label>
-                            <input type="text" id="name" name="name" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="email">Email:</label>
-                            <input type="email" id="email" name="email" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="guests">Number of Guests:</label>
-                            <select id="guests" name="guests">
-                                <option value="1">1</option>
-                                <option value="2">2</option>
-                                <option value="3">3</option>
-                                <option value="4">4</option>
-                            </select>
-                        </div>
-                        <button type="submit">Submit RSVP</button>
-                    </form>
+
+            <!-- NEWS SECTION -->
+            <div class="section-container" id="news">
+                <section class="news">
+                    <h2 style="color: #ff0;">New Modpack Version Available! (6-22-2025)</h2>
+                    <p>The modpack has been updated to V2! New mods are listed below and the updated pack can be downloaded in the "How to Get Started" section.</p>
+                    <p></p>
+                    <?php
+                    $news = json_decode(file_get_contents('misc/new.json'), true);
+                    foreach ($news as $newsItem) {
+                        $image = $newsItem['image'] ? "img/mods/{$newsItem['image']}" : "img/black-square.png";
+                        $link = $newsItem['link'];
+                        $title = $newsItem['title'];
+                        $subtitle = $newsItem['info'];
+                        echo "<a href='$link' target='_blank' class='mod-section news-item'>
+                                <div class='mod-image'>
+                                    <img src='$image' alt='$title' loading='lazy'>
+                                </div>
+                                <div class='mod-details'>
+                                    <h3>$title</h3>
+                                    <p>$subtitle</p>
+                                </div>
+                              </a>";
+                    }
+                    ?>
                 </section>
             </div>
-            
-            <div class="section-container" id="gallery">
-                <section class="gallery">
-                    <h2>Party Gallery</h2>
-                    <p>Check out some photos from our previous events!</p>
-                    <div class="gallery-grid">
-                        <div class="gallery-item">
-                            <div class="placeholder-image">Image 1</div>
-                            <p>Last year's summer bash</p>
-                        </div>
-                        <div class="gallery-item">
-                            <div class="placeholder-image">Image 2</div>
-                            <p>New Year's Eve Celebration</p>
-                        </div>
-                        <div class="gallery-item">
-                            <div class="placeholder-image">Image 3</div>
-                            <p>Halloween Party 2024</p>
-                        </div>
-                        <div class="gallery-item">
-                            <div class="placeholder-image">Image 4</div>
-                            <p>Spring Fling</p>
-                        </div>
-                    </div>
+
+            <!-- PLAY NOW SECTION -->
+            <div class="section-container" id="playnow">
+                <section class="play-now">
+                    <h2 style="color: #ff0;">How to Get Started</h2>
+                    <p id="countdown"></p>
+                    <script>
+                        const countdownElement = document.getElementById('countdown');
+                        const partyStartDate = new Date('2025-06-03T18:00:00'); // Set the party start date and time
+
+                        function updateCountdown() {
+                            const now = new Date();
+                            const centralTimeOffset = -6; // Central Time offset from UTC
+                            const nowCentralTime = new Date(now.getTime() + (now.getTimezoneOffset() * 60000) + (centralTimeOffset * 3600000));
+                            const timeRemaining = partyStartDate - nowCentralTime;
+
+                            if (timeRemaining > 0) {
+                                const days = Math.floor(timeRemaining / (1000 * 60 * 60 * 24));
+                                const hours = Math.floor((timeRemaining % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                                const minutes = Math.floor((timeRemaining % (1000 * 60 * 60)) / (1000 * 60));
+                                const seconds = Math.floor((timeRemaining % (1000 * 60)) / 1000);
+
+                                const pad = (num) => String(num).padStart(2, '0');
+
+                                countdownElement.textContent = `The party begins in ${pad(days)}:${pad(hours)}:${pad(minutes)}:${pad(seconds)}`;
+                                countdownElement.style.display = 'block';
+
+                                // Add line break only if it doesn't already exist
+                                if (!countdownElement.nextElementSibling || countdownElement.nextElementSibling.tagName !== 'BR') {
+                                    countdownElement.insertAdjacentHTML('afterend', '<br>');
+                                }
+                            } else {
+                                countdownElement.style.display = 'none';
+                            }
+                        }
+
+                        setInterval(updateCountdown, 1000);
+                    </script>
+                    <p>
+                        Download and install the
+                        <span class="yellow-splash"><a href="https://modrinth.com/app">Modrinth launcher</a></span> and log into your Minecraft
+                        account, as it will make it much easier to install the 
+                        <span class="yellow-splash"><a href="https://www.dropbox.com/scl/fi/0s12um21oz675njo3yqp9/Party-Pack-2.0.0.mrpack?rlkey=catkmpgvns44nqj37vrz1u7zt&st=d4ni2okv&dl=1">Party Pack</a></span> modpack.
+                    </p>
+                    <br>
+                    <p>
+                        After installing Modrinth and booting into the Party Pack instance, take a moment to hop into a singleplayer world
+                        and press "V" to set up your proximity voice chat and in-game audio settings, and familiarize yourself with any
+                        mod-related keybinds/controls.
+                    </p>
+                    <br>
+                    <p>
+                        To find biomes and structures added by the modpack, you must venture out beyond the bounds of the Oldlands,
+                        which are defined on the livemap.
+                    </p>
+                    <br>
+                    <p>
+                        Keep an eye on the server's flavor text in the Multiplayer menu for important announcements and updates.
+                    </p>
                 </section>
             </div>
-            
-            <div class="section-container">
-                <section class="testimonials">
-                    <h2>What People Say</h2>
-                    <div class="testimonial">
-                        <p>"Alex's parties are always the highlight of my year! Can't wait for the next one!"</p>
-                        <cite>- Jamie S.</cite>
-                    </div>
-                    <div class="testimonial">
-                        <p>"The music was amazing, the food was delicious, and the company was even better!"</p>
-                        <cite>- Taylor M.</cite>
-                    </div>
-                    <div class="testimonial">
-                        <p>"I've never had so much fun in one night. Already looking forward to the next party!"</p>
-                        <cite>- Jordan R.</cite>
-                    </div>
+
+            <!-- RULES SECTION -->
+            <div class="section-container" id="rules">
+                <section class="rules">
+                    <h2 style="color: #ff0;">Rules</h2>
+                    <p>1. Read the room.<p>
+                    <p>2. For more clarity on the above rule, use your head.</p>
                 </section>
             </div>
-            
-            <div class="section-container">
-                <section class="faq">
-                    <h2>Frequently Asked Questions</h2>
-                    <div class="faq-item">
-                        <h3>What should I wear?</h3>
-                        <p>Dress to impress! Smart casual is our recommended attire.</p>
+
+            <!-- MODS SECTION -->
+            <div class="section-container" id="mods">
+                <section class="mods">
+                    <h2 style="color: #ff0;">Mods & Datapacks</h2>
+                    <div class='search-container'>
+                        <input type='text' id='mod-search' placeholder='Search mods...'>
                     </div>
-                    <div class="faq-item">
-                        <h3>Can I bring additional guests?</h3>
-                        <p>Please RSVP with the total number of guests. If you need to bring more than 4, contact us directly.</p>
-                    </div>
-                    <div class="faq-item">
-                        <h3>Is there parking available?</h3>
-                        <p>Yes, limited parking is available on-site. Carpooling is encouraged!</p>
-                    </div>
-                    <div class="faq-item">
-                        <h3>What time does the party end?</h3>
-                        <p>The official end time is 2:00 AM, but the fun often continues!</p>
-                    </div>
+                    <p></p>
+                    <?php
+                    $mods = json_decode(file_get_contents('misc/mods.json'), true);
+                    foreach ($mods as $mod) {
+                        $image = $mod['image'] ? "img/mods/{$mod['image']}" : "img/black-square.png";
+                        $link = $mod['link'];
+                        $title = $mod['title'];
+                        $subtitle = $mod['info'];
+                        echo "<a href='$link' target='_blank' class='mod-section'>
+                                <div class='mod-image'>
+                                    <img src='$image' alt='$title' loading='lazy'>
+                                </div>
+                                <div class='mod-details'>
+                                    <h3>$title</h3>
+                                    <p>$subtitle</p>
+                                </div>
+                              </a>";
+                    }
+                    ?>
                 </section>
             </div>
         </main>
-        
-        <div class="section-container">
-            <footer>
-                <p>&copy; <?php echo date('Y'); ?> Party at Alex's. All rights reserved.</p>
-                <p>Contact: party@alexs.com | (555) 123-4567</p>
-            </footer>
-        </div>
     </div>
 
     <script>
@@ -183,6 +214,72 @@
                         img.onload = adjustLinkSize;
                     }
                 }
+            });
+        });
+
+        document.addEventListener('DOMContentLoaded', function() {
+            const searchInput = document.getElementById('mod-search');
+            const modSections = document.querySelectorAll('.mod-section:not(.news-item)');
+            const modsContainer = document.querySelector('.mods');
+
+            const noModsFound = document.createElement('div');
+            noModsFound.id = 'no-mods-found';
+            noModsFound.textContent = 'No mods found';
+            noModsFound.style.display = 'none';
+            noModsFound.style.textAlign = 'center';
+            noModsFound.style.color = '#ffffff';
+            modsContainer.appendChild(noModsFound);
+
+            searchInput.addEventListener('input', function() {
+                const query = searchInput.value.toLowerCase();
+                let hasResults = false;
+
+                modSections.forEach(section => {
+                    const title = section.querySelector('h3').textContent.toLowerCase();
+                    const subtitle = section.querySelector('p').textContent.toLowerCase();
+
+                    if (title.includes(query) || subtitle.includes(query)) {
+                        section.style.display = 'flex';
+                        hasResults = true;
+                    } else {
+                        section.style.display = 'none';
+                    }
+                });
+
+                noModsFound.style.display = hasResults ? 'none' : 'block';
+            });
+        });
+
+        document.addEventListener('DOMContentLoaded', function() {
+            const newsSearchInput = document.getElementById('news-search');
+            const newsSections = document.querySelectorAll('.news-item');
+            const newsContainer = document.querySelector('.news');
+
+            const noNewsFound = document.createElement('div');
+            noNewsFound.id = 'no-news-found';
+            noNewsFound.textContent = 'No news found';
+            noNewsFound.style.display = 'none';
+            noNewsFound.style.textAlign = 'center';
+            noNewsFound.style.color = '#ffffff';
+            newsContainer.appendChild(noNewsFound);
+
+            newsSearchInput.addEventListener('input', function() {
+                const query = newsSearchInput.value.toLowerCase();
+                let hasResults = false;
+
+                newsSections.forEach(section => {
+                    const title = section.querySelector('h3').textContent.toLowerCase();
+                    const subtitle = section.querySelector('p').textContent.toLowerCase();
+
+                    if (title.includes(query) || subtitle.includes(query)) {
+                        section.style.display = 'flex';
+                        hasResults = true;
+                    } else {
+                        section.style.display = 'none';
+                    }
+                });
+
+                noNewsFound.style.display = hasResults ? 'none' : 'block';
             });
         });
     </script>

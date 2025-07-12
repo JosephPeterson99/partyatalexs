@@ -1,0 +1,68 @@
+[
+    {
+        "image": "lovely-snails.png",
+        "link": "https://modrinth.com/mod/lovely_snails",
+        "title": "Lovely Snails",
+        "info": "Adds tamable pet snails to the game"
+    },
+    {
+        "image": "macaw-bridge.webp", 
+        "link": "https://modrinth.com/mod/macaws-bridges",
+        "title": "Macaw's Bridges",
+        "info": "Adds a variety of craftable bridge blocks"
+    },
+    {
+        "image": "macaw-door.webp",
+        "link": "https://modrinth.com/mod/macaws-doors", 
+        "title": "Macaw's Doors",
+        "info": "Adds additional craftable doors, including garage and gate doors"
+    },
+    {
+        "image": "macaw-trapdoor.webp",
+        "link": "https://modrinth.com/mod/macaws-trapdoors", 
+        "title": "Macaw's Trapdoors",
+        "info": "Adds additional craftable trapdoors"
+    },
+    {
+        "image": "macaw-window.webp",
+        "link": "https://modrinth.com/mod/macaws-windows", 
+        "title": "Macaw's Windows",
+        "info": "Adds new varities of craftable windows, blinds, shutters, curtains, and more"
+    },
+    {
+        "image": "moar.png",
+        "link": "https://modrinth.com/mod/moar-concrete", 
+        "title": "Moar Concrete",
+        "info": "Adds colored concrete slabs, stairs, walls, fences, gates, bricks, panels, and buttons"
+    },
+    {
+        "image": "potionstack.webp",
+        "link": "https://modrinth.com/mod/potion-stacking", 
+        "title": "Potion Stacking",
+        "info": "Allows potions to be stored and used in stacks of 16. Cooldown of 1 second between uses"
+    },
+    {
+        "image": "rebarrel.webp",
+        "link": "https://modrinth.com/mod/reinforced-barrels", 
+        "title": "Reinforced Barrels",
+        "info": "Adds tiered barrel ugprades with increased storage capacity"
+    },
+    {
+        "image": "rechest.webp",
+        "link": "https://modrinth.com/mod/reinforced-chests", 
+        "title": "Reinforced Chests",
+        "info": "Adds tiered chest ugprades with increased storage capacity"
+    },
+    {
+        "image": "reshulker.webp",
+        "link": "https://modrinth.com/mod/reinforced-shulker-boxes", 
+        "title": "Reinforced Shulker Boxes",
+        "info": "Adds tiered shulker box ugprades with increased storage capacity"
+    },
+    {
+        "image": "stackblock.gif",
+        "link": "https://modrinth.com/mod/stacked-blocks", 
+        "title": "Stacked Blocks",
+        "info": "Allows many blocks to be crafted 8:1 into stacked blocks using leads"
+    }
+]

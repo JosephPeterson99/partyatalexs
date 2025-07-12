@@ -89,6 +89,8 @@ function render_logo($splash_text = null) {
         </div>
     </div>
 
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
     <style>
         @font-face {
             font-family: 'Minecraft';
@@ -153,7 +155,7 @@ function render_logo($splash_text = null) {
             font-family: 'Minecraft', 'Comic Sans MS', cursive, sans-serif;
             text-shadow: 2px 2px 0 #000;
             font-size: 1.5rem;
-            animation: splash-animation 1s infinite ease-in-out;
+            animation: splash-animation 0.875s infinite ease-in-out;
             z-index: 10;
             width: max-content;
             max-width: 80vw; /* Limit width to stay within viewport */

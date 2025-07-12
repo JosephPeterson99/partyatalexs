@@ -9,13 +9,7 @@
         "text": "Awesome!"
     },
     {
-        "text": "100% pure!"
-    },
-    {
         "text": "May contain nuts!"
-    },
-    {
-        "text": "Better than Prey!"
     },
     {
         "text": "More polygons!"
@@ -24,25 +18,10 @@
         "text": "Sexy!"
     },
     {
-        "text": "Limited edition!"
-    },
-    {
         "text": "Flashing letters!"
     },
     {
-        "text": "Made by Notch!"
-    },
-    {
-        "text": "Coming soon!"
-    },
-    {
         "text": "Best in class!"
-    },
-    {
-        "text": "When it's finished!"
-    },
-    {
-        "text": "Absolutely dragon free!"
     },
     {
         "text": "Excitement!"
@@ -69,22 +48,10 @@
         "text": "It's a game!"
     },
     {
-        "text": "Made in Sweden!"
-    },
-    {
         "text": "Uses LWJGL!"
     },
     {
         "text": "Reticulating splines!"
-    },
-    {
-        "text": "Minecraft!"
-    },
-    {
-        "text": "Yaaay!"
-    },
-    {
-        "text": "Singleplayer!"
     },
     {
         "text": "Keyboard compatible!"
@@ -94,18 +61,6 @@
     },
     {
         "text": "Exploding creepers!"
-    },
-    {
-        "text": "Create!"
-    },
-    {
-        "text": "Survive!"
-    },
-    {
-        "text": "Dungeon!"
-    },
-    {
-        "text": "Exclusive!"
     },
     {
         "text": "The bee's knees!"
@@ -120,19 +75,10 @@
         "text": "Classy!"
     },
     {
-        "text": "Wow!"
-    },
-    {
         "text": "Not on Steam!"
     },
     {
-        "text": "Oh man!"
-    },
-    {
         "text": "Check it out!"
-    },
-    {
-        "text": "Awesome community!"
     },
     {
         "text": "Pixels!"
@@ -151,9 +97,6 @@
     },
     {
         "text": "12 herbs and spices!"
-    },
-    {
-        "text": "Fat free!"
     },
     {
         "text": "Absolutely no memes!"
@@ -195,9 +138,6 @@
         "text": "Inspirational!"
     },
     {
-        "text": "Herregud!"
-    },
-    {
         "text": "Complex cellular automata!"
     },
     {
@@ -214,9 +154,6 @@
     },
     {
         "text": "Try it!"
-    },
-    {
-        "text": "Age of Wonders is better!"
     },
     {
         "text": "Try the mushroom stew!"
@@ -267,12 +204,6 @@
         "text": "Uninflammable!"
     },
     {
-        "text": "Whoa, dude!"
-    },
-    {
-        "text": "All inclusive!"
-    },
-    {
         "text": "Tell your friends!"
     },
     {
@@ -312,9 +243,6 @@
         "text": "Han shot first!"
     },
     {
-        "text": "Nice to meet you!"
-    },
-    {
         "text": "Buckets of lava!"
     },
     {
@@ -322,9 +250,6 @@
     },
     {
         "text": "Larger than Earth!"
-    },
-    {
-        "text": "sqrt(-1) love you!"
     },
     {
         "text": "Phobos anomaly!"
@@ -343,12 +268,6 @@
     },
     {
         "text": "Synecdoche!"
-    },
-    {
-        "text": "Let's danec!"
-    },
-    {
-        "text": "Seecret Friday update!"
     },
     {
         "text": "Reference implementation!"
@@ -378,16 +297,10 @@
         "text": "A skeleton popped out!"
     },
     {
-        "text": "The Work of Notch!"
-    },
-    {
         "text": "The sum of its parts!"
     },
     {
         "text": "BTAF used to be good!"
-    },
-    {
-        "text": "I miss ADOM!"
     },
     {
         "text": "umop-apisdn!"
@@ -421,9 +334,7 @@
     },
     {
         "text": "Rita is the new top dog!"
-    },    {
-        "text": "SWM forever!"
-    },
+    },   
     {
         "text": "Superfragilisticexpialidocious!"
     },
@@ -503,12 +414,6 @@
         "text": "Switches and ores!"
     },
     {
-        "text": "Menger sponge!"
-    },
-    {
-        "text": "idspispopd!"
-    },
-    {
         "text": "Eple (original edit)!"
     },
     {
@@ -522,9 +427,6 @@
     },
     {
         "text": "Don't look directly at the bugs!"
-    },
-    {
-        "text": "Oh, ok, Pigmen!"
     },
     {
         "text": "Finally with ladders!"
@@ -590,9 +492,6 @@
         "text": "Endless!"
     },
     {
-        "text": "Ask your mother!"
-    },
-    {
         "text": "Ask your doctor!"
     },
     {
@@ -627,7 +526,8 @@
     },
     {
         "text": "Like that smash button!"
-    },    {
+    },
+    {
         "text": "Beware the dimensional merge!"
     },
     {
@@ -646,19 +546,7 @@
         "text": "Don't delete any coconuts!"
     },
     {
-        "text": "Cooler than Spock!"
-    },
-    {
-        "text": "\"Noun\" is an autonym!"
-    },
-    {
-        "text": "Sexy!"
-    },
-    {
         "text": "That's no moon!"
-    },
-    {
-        "text": "Made by Notch!"
     },
     {
         "text": "Huge tracts of land!"
@@ -1053,5 +941,32 @@
     },
     {
         "text": "Capsule Corp approved!"
+    },
+    {
+        "text": "The planet's dyin', Cloud!"
+    },
+    {
+        "text": "Nimbus!"
+    },
+    {
+        "text": "Try the sacred water!"
+    },
+    {
+        "text": "Dodon Ray!"
+    },
+    {
+        "text": "Kaioken!"
+    },
+    {
+        "text": "Try the Aether!"
+    },
+    {
+        "text": "Try the Otherside!"
+    },
+    {
+        "text": "Whatever it takes!"
+    },
+    {
+        "text": "On your left!"
     }
 ]

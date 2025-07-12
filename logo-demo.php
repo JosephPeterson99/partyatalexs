@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Logo Demo - Party at Alex's</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
     <style>
         /* Additional styles for demo page */
         .demo-container {
