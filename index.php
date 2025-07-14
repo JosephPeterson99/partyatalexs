@@ -50,8 +50,8 @@
             <!-- NEWS SECTION -->
             <div class="section-container" id="news">
                 <section class="news">
-                    <h2 style="color: #ff0;">New Modpack Version Available! (6-22-2025)</h2>
-                    <p>The modpack has been updated to V2! New mods are listed below and the updated pack can be downloaded in the "How to Get Started" section.</p>
+                    <h2 style="color: #ff0;">New Modpack Version Available! (7-13-2025)</h2>
+                    <p>The modpack has been updated to V3! New mods are listed below and the updated pack can be downloaded in the "How to Get Started" section.</p>
                     <p></p>
                     <?php
                     $news = json_decode(file_get_contents('misc/new.json'), true);
@@ -115,7 +115,7 @@
                         Download and install the
                         <span class="yellow-splash"><a href="https://modrinth.com/app">Modrinth launcher</a></span> and log into your Minecraft
                         account, as it will make it much easier to install the 
-                        <span class="yellow-splash"><a href="https://www.dropbox.com/scl/fi/0s12um21oz675njo3yqp9/Party-Pack-2.0.0.mrpack?rlkey=catkmpgvns44nqj37vrz1u7zt&st=d4ni2okv&dl=1">Party Pack</a></span> modpack.
+                        <span class="yellow-splash"><a href="https://www.dropbox.com/scl/fi/6dw4tttzn23rzbukrqydr/Party-Pack-3.0.0.mrpack?rlkey=vekn8ccx078gb8o59ntngz4l3&st=tjth02x0&dl=1">Party Pack</a></span> modpack.
                     </p>
                     <br>
                     <p>

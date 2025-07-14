@@ -258,6 +258,12 @@
         "info": "Creates ambient sounds for certain blocks during rain"
     },
     {
+        "image": "copperhopper.webp",
+        "link": "https://modrinth.com/mod/copper-hopper",
+        "title": "Copper Hopper",
+        "info": "Adds copper hoppers that act as item filters"
+    },
+    {
         "title": "Craftable Capes",
         "image": "craftcapes.webp",
         "link": "https://modrinth.com/mod/craftablecapes",
